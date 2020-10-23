@@ -1,0 +1,11 @@
+[Unit]
+Description=diy-cec
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+ExecStart=/home/pi/src/diy-cec/main.py
+
+[Install]
+WantedBy=multi-user.target
