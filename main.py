@@ -1,3 +1,5 @@
+#!/home/pi/src/diy-cec/env/bin/python3
+
 import cec
 import time
 
